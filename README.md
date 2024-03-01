@@ -15,3 +15,7 @@ python manage.py startapp base
 python src/manage.py makemigrations 
 python src/manage.py migrate
 ```
+
+## Resources
+
+* [django-tailwind](https://django-tailwind.readthedocs.io/en/latest/installation.html)
