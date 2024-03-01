@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "base",
 
     "tailwind",  # Prefer to keep it at the end of the installed app.
     "theme",  # Tailwind CSS compatible Django app.
