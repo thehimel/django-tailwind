@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     "tailwind",  # Prefer to keep it at the end of the installed app.
     "theme",  # Tailwind CSS compatible Django app.
+    "django_browser_reload",  # Tailwind CSS automatic page reloading during development.
 ]
 
 TAILWIND_APP_NAME = "theme"
@@ -53,6 +54,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = "core.urls"
