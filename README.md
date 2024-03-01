@@ -29,3 +29,7 @@ python src/manage.py migrate
 ## Resources
 
 * [django-tailwind](https://django-tailwind.readthedocs.io/en/latest/installation.html)
+
+### Tutorials
+
+* [Integrate Tailwind into your Django application](https://youtu.be/76n7sqZocSk)
