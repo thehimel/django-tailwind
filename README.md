@@ -2,6 +2,16 @@
 
 A repository to integrate django with tailwind css.
 
+## How to Run
+
+```
+# Start Tailwind CSS in a terminal window. Keep it running.
+python src/manage.py tailwind start
+
+# Run the Django Server
+python src/manage.py runserver
+```
+
 ## Commands
 
 ```
